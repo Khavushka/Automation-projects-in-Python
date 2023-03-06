@@ -27,3 +27,7 @@ server.starttls()
 server.login(sender_email, sender_password)
 server.sendmail(sender_email, recipients, message.as_string())
 server.quit()
+
+# This is script will send an email with the subject "Test email" 
+# and the body "This is a test email" to the recipients listed in 
+# the recipients variable
